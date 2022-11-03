@@ -1,0 +1,314 @@
+* {
+    box-sizing: border-box;
+}
+
+.play {
+    margin-bottom: 6vh;
+    margin-top: 4vh;
+    display: flex;
+    margin-left: 3vh;
+    width: 20%;
+    border: #fff;
+    border-radius: 20px;
+}
+.play img {
+    width: 100%;
+    border-radius: 20px;
+}
+.Aboutgames{
+    display:flex ;
+}
+.right-games{
+    width: 90%;
+}
+.AboutUs {
+    color-scheme: dark;
+    text-align: center;
+    font-family: 'Mark Pro',Arial,sans-serif;
+    font-weight: 700;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    font-size: 15px;
+    line-height: 1.333;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background: #fff;
+}
+
+.page-title {
+    margin-left: 3vh;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: left;
+    font-size: 46px;
+    color: #222222;
+}
+
+.title {
+    margin-top: 4vh;
+    margin-left: 3vh;
+    text-align: left;
+    font-size: 26px;
+    color: #222222;
+}
+
+.theme {
+    position: fixed;
+    cursor: pointer;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    padding: 10px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(39,38,40,0.4);
+}
+
+.AboutLoL {
+    font-size: 25px;
+    margin-top: -108vh;
+    margin-left: 43vh;
+}
+
+.AboutValorant { 
+    font-size: 25px;
+    margin-top: 22vh;
+    margin-left: 43vh;
+}
+
+.AboutRuined {
+    font-size: 25px;
+    margin-top: 22vh;
+    margin-left: 43vh;
+}
+
+.AboutLoR {
+    font-size: 25px;
+    margin-top: 20vh;
+    margin-left: 43vh;
+}
+
+.AboutRiot p {
+    margin-top: 25px;
+    color: #2b2a29;
+    text-align: center;
+    box-sizing: border-box;
+    font-style: normal;
+    font-family: 'Mark Pro',Arial,sans-serif;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 1.235;
+}
+
+.AboutRiot h1 {
+    text-align: center;
+}
+
+.AboutRiot img {
+    border-radius: 15px;
+}
+
+.AboutRiotGames {
+    margin-top: 2vh;
+    margin-left: 10vh;
+    margin-right: 10vh;
+    font-family: 'Mark Pro',Arial,sans-serif;
+    font-size: 30px;
+    line-height: 1.667;
+    box-sizing: border-box;
+    font-weight: 700;
+    color: #2b2a29;
+}
+
+.footer {
+    background-color: #4A4A4A;
+    width: 100%;
+    height: 20vh;
+    margin-top: 10vh;
+}
+
+.rioturl {
+    font-weight: 500;
+    margin-left: 22vh;
+    display: flex;
+    gap: 30px;
+    transition: color .2s linear;
+}
+.rioturl__link {
+    cursor: pointer;
+    transition: color .1.5s linear;
+}
+.rioturl__link:hover  {
+    color: #fff;
+
+}
+
+@media (max-width: 800px) and (min-width:700px) {
+    .AboutUs {
+        margin: 0vh 0vh 0vh 46vh;
+    }
+
+    .AboutRiot p {
+        width: 100%;
+        margin-left: 255px;
+    }
+
+    .AboutRiot img {
+        margin-left: 43px;
+    }
+    .AboutRiotGames {
+        width: 100%;
+        margin-top: 1vh;
+        margin-left: 26vh;
+        margin-right: 10vh;
+    }
+
+    .play img {
+        margin-bottom: 97px;
+        margin-left: 137px;
+        width: 588%;
+        border-radius: 20px;
+    }
+
+    .title {
+        margin-left: 44vh;
+        font-size: 42px;
+        }
+    
+        .AboutLoL {
+            margin-left: 259px;
+            font-size: 22px;
+            margin-top: -211vh;
+            width: 100%;
+            text-align: center;
+        }
+
+        .AboutValorant {
+            font-size: 25px;
+            margin-top: 55vh;
+            margin-left: 27vh;
+            width: 100%;
+            text-align: center;
+        }
+
+        .AboutRuined {
+            width: 100%;
+            font-size: 25px;
+            margin-top: 56vh;
+            margin-left: 26vh;
+            text-align: center;
+        }
+        .footer {
+            width: 168%;
+        }
+
+        .AboutLoR {
+            font-size: 25px;
+            margin-top: 52vh;
+            margin-left: 29vh;
+            width: 100%;
+            text-align: center;
+        }
+
+        .rioturl {
+            font-weight: 500;
+            margin-left: 7vh;
+            display: flex;
+            gap: 30px;
+            transition: color .2s linear;
+            font-size: 16px;
+            margin-right: 21px;
+        }
+}
+
+@media (max-width: 400px) and (min-width: 350px) {
+    .AboutUs {
+        margin-left: 352px;
+        width: 100%;
+        font-size: 22px;
+    }
+
+    .AboutRiot p {
+        font-size: 45px;
+        margin-left: 357px;
+        width: 100%;
+        margin-top: 25px;
+    }
+
+    .AboutRiot img {
+        width: 190%;
+        border-radius: 15px;
+        margin-left: 220px;
+    }
+
+        .AboutRiotGames {
+            width: 210%;
+            margin-top: 1vh;
+            margin-left: 26vh;
+            text-align: center;
+        }
+    
+
+    .play img {
+        margin-bottom: 97px;
+        margin-left: 137px;
+        width: 588%;
+        border-radius: 20px;
+    }
+
+    
+    .AboutLoL {
+        margin-left: 222px;
+        font-size: 22px;
+        margin-top: -287vh;
+        width: 206%;
+        text-align: center;
+    }
+
+        .AboutValorant {
+            font-size: 25px;
+            margin-top: 74vh;
+            margin-left: 27vh;
+            width: 216%;
+            text-align: center;
+        }
+
+        .AboutRuined {
+            width: 258%;
+            font-size: 25px;
+            margin-top: 74vh;
+            margin-left: 18vh;
+            text-align: center;
+        }
+        .footer {
+            width: 295%;
+        }
+
+        .AboutLoR {
+            font-size: 25px;
+            margin-top: 73vh;
+            margin-left: 20vh;
+            width: 269%;
+            text-align: center;
+        }
+        .rioturl {
+            font-weight: 500;
+            margin-left: 7vh;
+            display: flex;
+            gap: 30px;
+            transition: color .2s linear;
+            font-size: 16px;
+            margin-right: 21px;
+        }
+
+        .title {
+            text-align: center;
+            margin-left: 53vh;
+            font-size: 49px;
+            width: 100%;
+        }
+    }
